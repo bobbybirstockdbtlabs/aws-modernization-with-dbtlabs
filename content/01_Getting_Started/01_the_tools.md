@@ -15,7 +15,7 @@ In terms of understanding git for this workshop, dbt Cloud will guide you throug
 <script src="https://fast.wistia.com/embed/medias/6gc3ojy45n.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:73.33% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_6gc3ojy45n videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/6gc3ojy45n/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
 
 *Summary of this video:*
-- We will be using Redshift as our Data Warehouse to compute and storage our transformations. We will be using the Spectrum feature to query from S3. 
+- We will be using Redshift as our Data Warehouse to compute and store our transformations. We will be using the Spectrum feature to query from S3. 
 - Our S3 bucket is our object storage. It's great for storing large amounts of data. 
 - Github will be our version control/git provider. It will be our code storage and code change management system.
 
@@ -30,7 +30,7 @@ In terms of understanding git for this workshop, dbt Cloud will guide you throug
 - Using dbt's ref function and ability to write DDL and DML, you can create repeatable builds and promote through environments without having to change the code. The ref function also builds dependencies automatically so you can focus on modeling, not run order or having to manually create the DAG via a third party tool.
 - dbt docs compiles the information you supply dbt via the project and the data warehouse information schema to a sharable documentation site that you can use for yourself and stakeholderse. Documentation also can automatically display lineage from raw objects to transformation to third party dependencies.
 - dbt Tests are all written in SQL and can be used to validate your data assumptions. 
-- By using dbt, you can provide a version control and CI/CD workflow to another comfortable with SQL.
+- By using dbt, you can provide a version control and CI/CD workflow to anyone comfortable with SQL.
 
 
 
